@@ -29,7 +29,7 @@ body {
     color: #000000;
     background-color: #ffffff;
 }
-/*
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -40,7 +40,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-*/
+
 /* Pages */
 
 .main-container {
@@ -379,7 +379,6 @@ body {
     display: flex;
     flex-direction: row;
     padding-left: 70px;
-    width: 150px;
 }
 
 .sorting {
@@ -604,10 +603,11 @@ body {
 }
 
 .welcome-image {
+    display: block;
     width: 458px;
     height: 352px;
     padding-top: 51px;
-    padding-left: 371px;
+    margin:  0 auto; 
 }
 
 .house {
@@ -648,20 +648,20 @@ body {
 
 .first {
     text-align: center;
-    background-image: url("../images/background1.png");
+    background-color: #83B3D3;
     width: 400px;
 }
 
 .second {
     text-align: center;
-    background-image: url("../images/background2.png");
+    background-color: rgba(131, 179, 211, 0.12);
     width: 400px;
     height: 384px;
 }
 
 .third {
     text-align: center;
-    background-image: url("../images/background3.png");
+    background-color: rgba(131, 179, 211, 0.2);
     width: 400px;
     height: 384px;
 }
@@ -700,7 +700,7 @@ body {
     width: 20px;
     height: 16px;
 }
-*/
+
 .htmlacademy-link {
     background-image: url("../images/made.svg");
     background-repeat: no-repeat;
@@ -709,7 +709,7 @@ body {
     padding-bottom: 100px;
     padding-right: 150px;
 }
-
+*/
 .button-search {
     background-image: url("../images/background-button.png");
     width: 575px;
