@@ -444,11 +444,6 @@ body {
     padding: 0;
 }
 
-.hotel-card {
-    display: flex;
-    flex-direction: row;
-}
-
 .hotel-card-title {
     font-weight: 700;
     font-size: 24px;
